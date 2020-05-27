@@ -1,0 +1,233 @@
+Generated: fuzzy
+Generated: structured_light
+Generated: bioinspired
+Generated: highgui
+Generated: ccalib
+Generated: aruco
+Generated: superres
+Generated: img_hash
+Generated: face
+Generated: hdf
+Generated: bgsegm
+Generated: imgcodecs
+Generated: surface_matching
+Generated: phase_unwrapping
+Generated: imgproc
+Generated: plot
+Generated: features2d
+Generated: photo
+Generated: shape
+Generated: calib3d
+Generated: line_descriptor
+Generated: text
+Generated: flann
+Generated: videoio
+Generated: freetype
+Generated: video
+Generated: dnn
+Generated: ml
+Generated: dnn_superres
+Generated: viz
+Generated: xobjdetect
+Generated: dpm
+Generated: xphoto
+Generated: videostab
+Generated: stitching
+Generated: objdetect
+Generated: core
+Total binding generation time: 24.796747124s
+cargo:rerun-if-env-changed=OPENCV_HEADER_DIR
+cargo:rerun-if-env-changed=OPENCV_PACKAGE_NAME
+cargo:rerun-if-env-changed=OPENCV_PKGCONFIG_NAME
+cargo:rerun-if-env-changed=OPENCV_CMAKE_NAME
+cargo:rerun-if-env-changed=OPENCV_CMAKE_BIN
+cargo:rerun-if-env-changed=OPENCV_VCPKG_NAME
+cargo:rerun-if-env-changed=OPENCV_LINK_LIBS
+cargo:rerun-if-env-changed=OPENCV_LINK_PATHS
+cargo:rerun-if-env-changed=OPENCV_INCLUDE_PATHS
+cargo:rerun-if-env-changed=OPENCV_DISABLE_PROBES
+cargo:rerun-if-env-changed=OPENCV_CLANG_STDLIB_PATH
+cargo:rerun-if-env-changed=CMAKE_PREFIX_PATH
+cargo:rerun-if-env-changed=OpenCV_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=VCPKG_ROOT
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/face.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/ocvrs_resolve_types.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/dnn.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/hdf.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/bioinspired.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/manual-features2d.cpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/ccalib.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/imgproc.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/videoio.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/core.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/common.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/manual-dnn.cpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/manual-core.cpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/calib3d.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/aruco.hpp
+cargo:rerun-if-changed=/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/sfm.hpp
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/features2d.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/features2d.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/calib3d.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/calib3d.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/manual-core.o" "-c" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/manual-core.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/manual-dnn.o" "-c" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/manual-dnn.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/dnn.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/dnn.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/dnn_superres.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/dnn_superres.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/manual-features2d.o" "-c" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp/manual-features2d.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/core.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/core.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/flann.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/flann.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/highgui.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/highgui.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/imgcodecs.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/imgcodecs.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/imgproc.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/imgproc.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/ml.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/ml.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/objdetect.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/objdetect.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/photo.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/photo.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/stitching.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/stitching.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/video.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/video.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/videoio.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/videoio.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/cardinal/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.37.0/src_cpp" "-I" "/usr/include/opencv4" "-I" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-Wno-class-memaccess" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-variable" "-Wno-return-type-c-linkage" "-o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/viz.o" "-c" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/viz.cpp"
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "crs" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/libocvrs.a" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/calib3d.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/core.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/manual-core.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/dnn.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/manual-dnn.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/dnn_superres.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/features2d.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/manual-features2d.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/flann.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/highgui.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/imgcodecs.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/imgproc.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/ml.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/objdetect.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/photo.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/stitching.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/video.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/videoio.o" "/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out/viz.o"
+exit code: 0
+cargo:rustc-link-lib=static=ocvrs
+cargo:rustc-link-search=native=/home/cardinal/drone-camera/server/target/debug/build/opencv-b44597f1e3e90d5b/out
+CXXSTDLIB_x86_64-unknown-linux-gnu = None
+CXXSTDLIB_x86_64_unknown_linux_gnu = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=stdc++
+cargo:rustc-link-search=native=/usr/lib/x86_64-linux-gnu
+cargo:rustc-link-lib=opencv_stitching
+cargo:rustc-link-lib=opencv_aruco
+cargo:rustc-link-lib=opencv_bgsegm
+cargo:rustc-link-lib=opencv_bioinspired
+cargo:rustc-link-lib=opencv_ccalib
+cargo:rustc-link-lib=opencv_dnn_objdetect
+cargo:rustc-link-lib=opencv_dnn_superres
+cargo:rustc-link-lib=opencv_dpm
+cargo:rustc-link-lib=opencv_highgui
+cargo:rustc-link-lib=opencv_face
+cargo:rustc-link-lib=opencv_freetype
+cargo:rustc-link-lib=opencv_fuzzy
+cargo:rustc-link-lib=opencv_hdf
+cargo:rustc-link-lib=opencv_hfs
+cargo:rustc-link-lib=opencv_img_hash
+cargo:rustc-link-lib=opencv_line_descriptor
+cargo:rustc-link-lib=opencv_quality
+cargo:rustc-link-lib=opencv_reg
+cargo:rustc-link-lib=opencv_rgbd
+cargo:rustc-link-lib=opencv_saliency
+cargo:rustc-link-lib=opencv_shape
+cargo:rustc-link-lib=opencv_stereo
+cargo:rustc-link-lib=opencv_structured_light
+cargo:rustc-link-lib=opencv_phase_unwrapping
+cargo:rustc-link-lib=opencv_superres
+cargo:rustc-link-lib=opencv_optflow
+cargo:rustc-link-lib=opencv_surface_matching
+cargo:rustc-link-lib=opencv_tracking
+cargo:rustc-link-lib=opencv_datasets
+cargo:rustc-link-lib=opencv_text
+cargo:rustc-link-lib=opencv_dnn
+cargo:rustc-link-lib=opencv_plot
+cargo:rustc-link-lib=opencv_ml
+cargo:rustc-link-lib=opencv_videostab
+cargo:rustc-link-lib=opencv_videoio
+cargo:rustc-link-lib=opencv_viz
+cargo:rustc-link-lib=opencv_ximgproc
+cargo:rustc-link-lib=opencv_video
+cargo:rustc-link-lib=opencv_xobjdetect
+cargo:rustc-link-lib=opencv_objdetect
+cargo:rustc-link-lib=opencv_calib3d
+cargo:rustc-link-lib=opencv_imgcodecs
+cargo:rustc-link-lib=opencv_features2d
+cargo:rustc-link-lib=opencv_flann
+cargo:rustc-link-lib=opencv_xphoto
+cargo:rustc-link-lib=opencv_photo
+cargo:rustc-link-lib=opencv_imgproc
+cargo:rustc-link-lib=opencv_core
