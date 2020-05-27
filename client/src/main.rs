@@ -19,7 +19,7 @@ fn run() -> opencv::Result<()>{
     params.push(IMWRITE_JPEG_QUALITY);
     params.push(30);
     let mut socket = UdpSocket::bind("0.0.0.0:6432").unwrap();
-    socket.connect("192.168.1.212:6464").unwrap();
+    socket.connect("192.168.1.214:6464").unwrap();
     loop {
         let mut frame = core::Mat::default()?;
         cam.read(&mut frame)?;
