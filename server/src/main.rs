@@ -18,15 +18,15 @@ fn run() -> opencv::Result<()> {
     loop {
         //let mut mem: [u8;65535] = [0;65535];
         let recv_len = socket.recv(&mut read_buf).unwrap();
-        /*for i in 0..read_buf.len() {
+        for i in 0..read_buf.len() {
             if 1 == recv_len {
                 break;
             }
             vec.push(read_buf[i]);
-        }*/
-        unsafe {
-            std::ptr::copy(&read_buf as *const u8, vec.as_raw_mut_VectorOfu8() as *mut u8, recv_len);
         }
+        /*unsafe {
+            std::ptr::copy(&read_buf as *const u8, vec.as_raw_mut_VectorOfu8() as *mut u8, recv_len);
+        }recv*/
         let mut newframe = imdecode(&vec, -1)?;
         let width = newframe.size()?.width as u32;
         let height = newframe.size()?.height as u32;
